@@ -1,0 +1,60 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "react/display-name": "off",
+        "no-template-curly-in-string": "warn",
+        "array-callback-return": "warn",
+        "block-scoped-var": "warn",
+        "consistent-return": "error",
+        "curly": "error",
+        "default-case": "warn",
+        "eqeqeq": [ "error", "always", { "null": "ignore" } ],
+        "no-extra-bind": "warn",
+        "no-invalid-this": "error",
+        "no-lone-blocks": "warn",
+        "no-loop-func": "error",
+        "no-multi-spaces": "warn",
+        "no-multi-str": "warn",
+        "no-new": "warn",
+        "no-new-func": "warn",
+        "no-new-wrappers": "warn",
+        "no-param-reassign": "error",
+        "no-useless-call": "warn",
+        "no-unused-vars": "warn",
+        "no-useless-concat": "warn",
+        "vars-on-top": "warn",
+        "no-use-before-define": "error",
+        "array-bracket-newline": ["warn", { "multiline": true }],
+        "object-curly-newline": ["warn", { "multiline": true }],
+        "block-spacing": ["warn", "always"],
+        "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+        "camelcase": "warn",
+        "comma-dangle": ["warn", "never"],
+        "comma-spacing": ["warn", { "before": false, "after": true }],
+        "indent": ["warn", 4],
+        "no-trailing-spaces": "warn",
+        "semi": ["error", "always"],
+        "semi-spacing": "warn",
+        "semi-style": ["error", "last"],
+        "no-useless-constructor": "error",
+        "no-duplicate-imports": "error"
+    }
+}
